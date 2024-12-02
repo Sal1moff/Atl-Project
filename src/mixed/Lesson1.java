@@ -1,3 +1,4 @@
+import javax.lang.model.type.NullType;
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -419,6 +420,67 @@ num=num-((num*endrm)/100);
 
 
  */
+/*
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Arrayin ölcüsünü daxil edin");
+        int size = sc.nextInt();
+        System.out.println("------------------");
+        int[] arr = new int[size];
+        for (int i = 0; i < size; i++) {
+            arr[i] = Integer.parseInt(sc.next());
+        }
+        System.out.println("Yeni arrayin ölcüsünü daxil edin");
+        int newSize = sc.nextInt();
+        System.out.println("------------------------------");
+        int[] newArr = new int[newSize];
+        for (int j = 0; j < newSize; j++) {
+            if (j < size) {
+                newArr[j] = arr[j];
+            } else {
+                System.out.println("Yeni element daxil edin:");
+                newArr[j] = sc.nextInt();
+            }
+        }
+        System.out.println("------------------");
+        for(int num:arr){
+            System.out.println(num+" ");
+        }
+        System.out.println("-----------------------------------");
+        for(int num:newArr){
+            System.out.println(num+" ");
+        }
+
+ */
+
+//        Integer x=128;
+//        int y=128;
+//        boolean a=x==y;
+//        System.out.println(a);
+/*
+        Scanner sc = new Scanner(System.in);
+        System.out.println("String daxil edin:");
+        String a = sc.nextLine();
+
+
+        try {
+            if (a.isEmpty()) {
+                throw new NullPointerException("boslug olmaz");
+            }
+            System.out.println("You enter: " + a);
+        } catch (NullPointerException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+
+
+
+ */
+
+        
+
+
+
+
+
     }
 }
 
