@@ -20,13 +20,13 @@ public class Employee {
 
     public void printInfo() {
         System.out.println("Employee NO:" + no);
-        System.out.println("Employee name" + name);
+        System.out.println("Employee name:" + name);
         System.out.println("Employee year:" + year);
         System.out.println("Department:" + department);
     }
 
     public void jobs() {
-        System.out.println(name + " adli isci " + department + " -de isleyir");
+        System.out.println(name + "-adli isci " + department + "-de isleyir,ve maasi:"+salary());
     }
 
 

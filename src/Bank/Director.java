@@ -17,14 +17,14 @@ public class Director extends Manager {
 
     @Override
     public void jobs() {
-        System.out.println(name+"adli direktor "+department+" de isleyir");
+        System.out.println(name+"-adli direktor "+department+"-de isleyir");
 
     }
 
     @Override
     public void printInfo() {
         super.printInfo();
-        System.out.println("Bonus"+bonus);
-        System.out.println("Director ümumi maasi:"+salary());
+        System.out.println("Bonus:"+bonus);
+        System.out.println("Director umumi maasi:"+salary());
     }
 }

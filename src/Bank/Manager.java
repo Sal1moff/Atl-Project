@@ -16,7 +16,7 @@ public class Manager extends Employee {
 
     @Override
     public void jobs() {
-        System.out.println(name + " adli manager " + departmentManaged + " de isleyir.");
+        System.out.println(name + "-adli manager " + departmentManaged + "-de isleyir.");
 
 
     }
