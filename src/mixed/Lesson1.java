@@ -1,6 +1,5 @@
 import javax.lang.model.type.NullType;
-import java.util.Scanner;
-import java.util.Arrays;
+import java.util.*;
 
 public class Lesson1 {
     public static void main(String[] args) {
@@ -476,7 +475,60 @@ num=num-((num*endrm)/100);
  */
 
 
-        System.out.println("helooooooooooooooooooooo");
+//        System.out.println("helooooooooooooooooooooo");
+
+//
+//        int[] ededler={1,2,3,6,7,8};
+//        int a=5;
+//        String[] texts={"huseyn","eli","vali","raul"};
+//        System.out.println("minimum is:" +Arrays.stream(ededler).min().getAsInt());
+//        System.out.println("maximum is:"+ Arrays.stream(ededler).max().getAsInt());
+//        System.out.println("Summary is:"+ Arrays.stream(ededler).sum());
+//        System.out.println("Average is:"+ Arrays.stream(ededler).average().getAsDouble());
+//        Collections.reverse(Arrays.asList(ededler));
+//        Arrays.sort(texts);
+//       for(String d:texts)
+//       {
+//           System.out.println(d);}
+
+//        LinkedList<String> names = new LinkedList<String>();
+//        ArrayList<String> maxLengt = new ArrayList<String>();
+//        names.add("emin");
+//        names.add("ali");
+//        names.add("vali");
+//        names.add("xanbala");
+//        names.add("huseyin");
+//        String name=names.getFirst();
+//        for (String a : names) {
+//            if (a.length() > name.length()  )   {
+//                name = a;
+//
+//            }
+//
+//
+//        }
+//
+//
+//        System.out.println(name + "," + name.length());
+
+
+        Map<Integer, String> hashMap = new HashMap<>();
+        hashMap.put(1, "Apple");
+        hashMap.put(2, "Banana");
+        hashMap.put(1, "Orange"); // Aynı anahtar üzerine yazılır.
+        System.out.println("HashMap: " + hashMap);
+
+        // LinkedHashMap
+        Map<Integer, String> linkedHashMap = new LinkedHashMap<>();
+        linkedHashMap.put(1, "Apple");
+        linkedHashMap.put(2, "Banana");
+        System.out.println("LinkedHashMap: " + linkedHashMap);
+
+        // TreeMap
+        Map<Integer, String> treeMap = new TreeMap<>();
+        treeMap.put(2, "Banana");
+        treeMap.put(1, "Apple");
+        System.out.println("TreeMap: " + treeMap);
 
 
 
