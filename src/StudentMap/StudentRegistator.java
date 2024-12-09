@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class StudentRegistator {
 
-    Map<Integer, StudentMap> students = new HashMap<>();
+    private Map<Integer, StudentMap> students = new HashMap<>();
 
     public void addStudent(int id, String name) {
         students.put(id, new StudentMap(id, name));
