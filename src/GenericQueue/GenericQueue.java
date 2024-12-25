@@ -14,7 +14,11 @@ public class GenericQueue<T> {
     }
 
     public T deQueue() {
+    if(myList.isEmpty()==true){
+        System.out.println("We have not a element in generic");
+    }
         return myList.getFirst();
+
     }
 
     @Override
@@ -25,12 +29,12 @@ public class GenericQueue<T> {
     }
 
     public void isEmpty() {
-        if (myList.size() == 0) {
+        if (myList.isEmpty()==true) {
             System.out.println("List is empty");
         }
         System.out.println("We have a element in generic");
     }
-}
 
+}
 
 
