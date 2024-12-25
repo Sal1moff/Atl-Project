@@ -14,7 +14,7 @@ public class SetMain {
         students.add(new Student("musa", 5));
         students.add(new Student("huseyn", 6));
 
-        Student varmi = new Student("tofiq", 3);
+        Student varmi = new Student("tofiq", 9);
         if (!students.add(varmi)) {
             System.out.println("bu id var,elave edilmedi" + varmi);
         } else {

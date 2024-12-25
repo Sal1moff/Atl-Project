@@ -1,3 +1,5 @@
+
+
 import javax.lang.model.type.NullType;
 import java.util.*;
 
@@ -511,28 +513,30 @@ num=num-((num*endrm)/100);
 //
 //        System.out.println(name + "," + name.length());
 
+//
+//        Map<Integer, String> hashMap = new HashMap<>();
+//        hashMap.put(1, "Apple");
+//        hashMap.put(2, "Banana");
+//        hashMap.put(1, "Orange"); // Aynı anahtar üzerine yazılır.
+//        System.out.println("HashMap: " + hashMap);
+//
+//        // LinkedHashMap
+//        Map<Integer, String> linkedHashMap = new LinkedHashMap<>();
+//        linkedHashMap.put(1, "Apple");
+//        linkedHashMap.put(2, "Banana");
+//        System.out.println("LinkedHashMap: " + linkedHashMap);
+//
+//        // TreeMap
+//        Map<Integer, String> treeMap = new TreeMap<>();
+//        treeMap.put(2, "Banana");
+//        treeMap.put(1, "Apple");
+//        System.out.println("TreeMap: " + treeMap);
+//
 
-        Map<Integer, String> hashMap = new HashMap<>();
-        hashMap.put(1, "Apple");
-        hashMap.put(2, "Banana");
-        hashMap.put(1, "Orange"); // Aynı anahtar üzerine yazılır.
-        System.out.println("HashMap: " + hashMap);
-
-        // LinkedHashMap
-        Map<Integer, String> linkedHashMap = new LinkedHashMap<>();
-        linkedHashMap.put(1, "Apple");
-        linkedHashMap.put(2, "Banana");
-        System.out.println("LinkedHashMap: " + linkedHashMap);
-
-        // TreeMap
-        Map<Integer, String> treeMap = new TreeMap<>();
-        treeMap.put(2, "Banana");
-        treeMap.put(1, "Apple");
-        System.out.println("TreeMap: " + treeMap);
-
-
+        System.out.println("hello");
 
     }
+
 }
 
 
